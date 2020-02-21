@@ -1,9 +1,11 @@
 
+.mapic {border: 2px solid #000;  padding: 5px; width: 200px;border-radius: 50%;}
+
 .SansPuce {list-style: none;}
 
-.entete {background-color: darkgray;}
+.entete {background-color: darkgray;  margin:25px; border-radius: 10px; padding: 10px;}
 
-.info_perso {background-color: darkgray; padding-top: 10%; overflow: auto;}
+.info_perso {background-color: darkgray; padding-top: 10%; overflow: auto; border-radius: 10px;}
 
 .logo_comp {text-align: center;}
 
@@ -14,4 +16,5 @@
 a[href^="mailto"]::before {content: "📧 ";}
 
 a[href^="tel"]::before {content: "📞 ";}
+
 
