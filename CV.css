@@ -1,0 +1,17 @@
+
+.SansPuce {list-style: none;}
+
+.entete {background-color: darkgray;}
+
+.info_perso {background-color: darkgray; padding-top: 10%; overflow: auto;}
+
+.logo_comp {text-align: center;}
+
+.logo_exp {text-align: center;}
+
+.logo_for {text-align: center;}
+
+a[href^="mailto"]::before {content: "📧 ";}
+
+a[href^="tel"]::before {content: "📞 ";}
+
